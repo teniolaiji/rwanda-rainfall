@@ -1,0 +1,14 @@
+# Data and saved models live in Google Drive, never in git
+data/
+models/
+*.zip
+*.csv
+
+# Logs
+wandb/
+logs/
+
+# Python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+.env
